@@ -1,0 +1,81 @@
+:root {
+  --prc-cls: #00ffff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  line-height: 2rem;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+  padding: 10px 30px;
+}
+.navbar ul li a {
+  color: #f5d;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.hero {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  background-image: linear-gradient(to right, red, blue);
+  color: transparent;
+  background-clip: text;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: black;
+  height: 200px;
+  width: 200px;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+.Box1 {
+  background-color: #f5d;
+}
+.Box2 {
+  background-color: #00ffff;
+}
+.Box3 {
+  background-color: chartreuse;
+}
+.Box4 {
+  background-color: bisque;
+}
+select,
+button {
+  margin-top: 2rem;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  border-radius: 20px;
+}
+select:hover {
+  background-color: var(--prc-cls);
+  border: greenyellow;
+}
+button:hover {
+  border: greenyellow;
+  background-color: var(--prc-cls);
+}
